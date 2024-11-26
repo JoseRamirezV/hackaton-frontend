@@ -1,9 +1,6 @@
+import { FaAddressCard, FaRegPlusSquare } from 'react-icons/fa';
 import { IoApps, IoChatbox } from 'react-icons/io5';
-import { Link, Outlet, Route, Routes } from 'react-router';
-import Apps from '../components/Dashboard/Apps';
-import { CiUser } from 'react-icons/ci';
-import { FaAddressCard, FaPlus, FaRegPlusSquare } from 'react-icons/fa';
-import { FaCartPlus } from 'react-icons/fa6';
+import { Link, Outlet } from 'react-router';
 
 export default function Dashboard() {
    return (
@@ -13,7 +10,7 @@ export default function Dashboard() {
             <aside className='flex flex-col w-fit h-full p-2 bg-gray-100 text-gray-700 group'>
                <ul>
                   <li className='flex justify-start items-center gap-2 ps-2 py-1 text-lg'>
-                     <Link to={'/apps'} className='contents'>
+                     <Link to={'/'} className='contents'>
                         <IoApps className='size-5' />
                         <p className='w-0 overflow-clip group-hover:w-fit pr-0 transition-all group-hover:pr-8'>
                            Aplicaciones
@@ -21,7 +18,7 @@ export default function Dashboard() {
                      </Link>
                   </li>
                   <li className='flex justify-start items-center gap-2 ps-2 py-1 text-lg'>
-                     <Link to={'/apps'} className='contents'>
+                     <Link to={'ratings'} className='contents'>
                         <IoChatbox className='size-5' />
                         <p className='w-0 overflow-clip group-hover:w-fit pr-0 transition-all group-hover:pr-8'>
                            Reseñas
@@ -46,7 +43,7 @@ export default function Dashboard() {
                   </li>
                </ul>
             </aside>
-            <Apps/>
+            <Outlet />
          </main>
       </div>
    );
