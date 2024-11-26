@@ -1,5 +1,7 @@
 import { IoApps } from 'react-icons/io5';
 import { Link, Outlet, Route, Routes } from 'react-router';
+import Profile from '../components/Dashboard/Profile';
+import UserProfile from '../components/Userprofile';
 
 export default function Dashboard() {
    return (
@@ -18,10 +20,7 @@ export default function Dashboard() {
                   </li>
                </ul>
             </aside>
-            <Routes>
-               <Route path='/apps' Component={Dashboard}/>
-            </Routes>
-            <Outlet/>
+            <UserProfile/>
          </main>
       </div>
    );
