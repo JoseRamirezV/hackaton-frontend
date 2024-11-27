@@ -1,0 +1,50 @@
+[
+    {
+        "_id":"1",
+        "title": "asdas",
+        "description": "asdas",
+        "userId": "asdas",
+        "imageURL": "asdas",
+        "appURL": "/src/assets/apps.webp",
+        "tags": ["asdas", "as"],
+        "isApp": true,
+        "upVotes": 10,
+        "downloads": 206
+    },
+    {
+        "_id":"2",
+        "title": "asdas2",
+        "description": "asdas2",
+        "userId": "asdas2",
+        "imageURL": "asdas2",
+        "appURL": "/src/assets/apps.webp",
+        "tags": ["asd2", "as22"],
+        "isApp": true,
+        "upVotes": 102,
+        "downloads": 2026
+    },
+    {
+        "_id":"13",
+        "title": "asdas3",
+        "description": "asdas3",
+        "userId": "asdas3",
+        "imageURL": "asd3",
+        "appURL": "/src/assets/apps.webp",
+        "tags": ["asdas", "as", "323"],
+        "isApp": false,
+        "upVotes": 1,
+        "downloads": 26
+    },
+    {
+        "_id":"14",
+        "title": "asdas4",
+        "description": "as4as",
+        "userId": "asdas4",
+        "imageURL": "asd4s",
+        "appURL": "/src/assets/apps.webp",
+        "tags": ["as4", "as"],
+        "isApp": false,
+        "upVotes": 0,
+        "downloads": 6
+    }
+]
