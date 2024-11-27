@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router";
 import { getAll, getUserApps } from "../services/app.service";
 // import mockData from '../mock.json';
